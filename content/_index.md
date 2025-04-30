@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: หมูหลุม
-      text: The easy, no-code technical documentation solution your users will love 🎉
+      text: การ่กทแวหืสอวห🎉
       primary_action:
         text: Get Started
         url: https://hugoblox.com/templates/details/docs/
