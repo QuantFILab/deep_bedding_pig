@@ -84,8 +84,8 @@ features:
       category_id: ''
 
 font:
-  heading: 'Sarabun'
-  body: 'Sarabun'
-  nav: 'Sarabun'
+  heading: 'Charm'
+  body: 'Charm'
+  nav: 'Charm'
   google_fonts:
-    - 'Sarabun:400,700&display=swap'
+    - 'Charm:400,700&display=swap'
