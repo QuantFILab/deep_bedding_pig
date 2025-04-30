@@ -84,9 +84,9 @@ features:
       category_id: ''
 
 font:
-  heading: 'Kanit'
-  body: 'Kanit'
-  nav: 'Kanit'
+  heading: 'Krub'
+  body: 'Krub'
+  nav: 'Krub'
   google_fonts:
-    - 'Kanit:400,700&display=swap'
+    - 'Krub:400,700&display=swap'
 
