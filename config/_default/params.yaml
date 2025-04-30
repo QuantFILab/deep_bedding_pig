@@ -82,3 +82,10 @@ features:
       repo_id: ''
       category: ''
       category_id: ''
+
+font:
+  heading: 'Sarabun'
+  body: 'Sarabun'
+  nav: 'Sarabun'
+  google_fonts:
+    - 'Sarabun:400,700&display=swap'
