@@ -84,9 +84,9 @@ features:
       category_id: ''
 
 font:
-  heading: 'Sarabun'
-  body: 'Sarabun'
-  nav: 'Sarabun'
+  heading: 'Kanit'
+  body: 'Kanit'
+  nav: 'Kanit'
   google_fonts:
-    - 'Sarabun:400,700&display=swap'
+    - 'Kanit:400,700&display=swap'
 
