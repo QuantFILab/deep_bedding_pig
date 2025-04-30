@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: หมูหลุม
+      title: *หมูหลุม*
       text: การ่กทแวหืสอวห🎉
       primary_action:
         text: Get Started
