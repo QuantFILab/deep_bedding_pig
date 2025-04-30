@@ -84,9 +84,9 @@ features:
       category_id: ''
 
 font:
-  heading: 'Krub'
-  body: 'Krub'
-  nav: 'Krub'
+  heading: 'Sriracha'
+  body: 'Sriracha'
+  nav: 'Sriracha'
   google_fonts:
-    - 'Krub:400,700&display=swap'
+    - 'Sriracha&display=swap'
 
