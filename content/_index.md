@@ -28,11 +28,10 @@ sections:
         margin: [0, 0, 0, 0]
       css_class: "bg-white"
       background:
-        color: "white"
         image:
-          filename: "pigfarm.png"  # Save your image in `assets/media/`
-          filters:
-            brightness: 0.85
+          filename: "pigfarm.png"
+          overlay: true  # Optional but often required for image to show
+          parallax: false
 
   - block: stats
     content:
@@ -70,13 +69,15 @@ sections:
           icon: shield-check
           description: ผลิตภัณฑ์จากฟาร์มหมูหลุมปลอดภัยสำหรับผู้บริโภค
         - name: ลดต้นทุนการผลิต
-          icon: chart-bar
+          icon: piggy-bank
           description: ลดต้นทุนอาหารและการดูแลสุขภาพสัตว์ด้วยแนวทางธรรมชาติ
         - name: ฟาร์มเชิงนิเวศ
+          icon: recycle
           description: ส่งเสริมการใช้วัสดุเหลือใช้และหมุนเวียนทรัพยากรในฟาร์ม
         - name: การเรียนรู้ร่วมกัน
-          icon: academic-cap
+          icon: users
           description: ส่งเสริมเครือข่ายเกษตรกร แลกเปลี่ยนความรู้ และสร้างชุมชนเข้มแข็ง
+
 
   - block: cta-card
     content:
