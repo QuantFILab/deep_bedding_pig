@@ -14,7 +14,6 @@ sections:
       primary_action:
         text: เริ่มต้นเรียนรู้
         url: /about/
-        icon: leaf
       secondary_action:
         text: ติดต่อโครงการ
         url: /contact/
@@ -31,7 +30,7 @@ sections:
       background:
         color: "white"
         image:
-          filename: "pigfarm.jpg"  # Save your image in `assets/media/`
+          filename: "pigfarm.png"  # Save your image in `assets/media/`
           filters:
             brightness: 0.85
 
@@ -74,7 +73,6 @@ sections:
           icon: chart-bar
           description: ลดต้นทุนอาหารและการดูแลสุขภาพสัตว์ด้วยแนวทางธรรมชาติ
         - name: ฟาร์มเชิงนิเวศ
-          icon: globe
           description: ส่งเสริมการใช้วัสดุเหลือใช้และหมุนเวียนทรัพยากรในฟาร์ม
         - name: การเรียนรู้ร่วมกัน
           icon: academic-cap
