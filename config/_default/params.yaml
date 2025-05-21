@@ -6,7 +6,13 @@
 # Appearance
 appearance:
   mode: light
-  color: blue
+  color: green
+  palette:
+    primary: "#245e3c"     # Luxury Green
+    secondary: "#f8fdf8"   # Pale Eco Background
+    background: "#ffffff"  # White background
+    text: "#1a1a1a"         # Dark text for readability
+    highlight: "#68a17d"   # Soft secondary green (optional)
 
 # SEO
 marketing:
@@ -37,7 +43,6 @@ header:
     fixed_to_top: true
     logo:
       text: ""
-      # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     button:
       enable: true
@@ -89,4 +94,3 @@ font:
   nav: 'Sriracha'
   google_fonts:
     - 'Sriracha&display=swap'
-
