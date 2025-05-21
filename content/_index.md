@@ -4,94 +4,91 @@ date: 2023-10-24
 type: landing
 
 design:
-  # Default section spacing
   spacing: "6rem"
 
 sections:
   - block: hero
     content:
-      title: หมูหลุม
-      text: การ่กทแวหืสอวห🎉
+      title: "โครงการหมูหลุม"
+      text: "โครงการเกษตรยั่งยืนที่ใช้แนวทางการเลี้ยงหมูโดยไม่พึ่งพาสารเคมี ด้วยหลักการธรรมชาติและการจัดการอินทรีย์"
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
-        icon: rocket-launch
+        text: เริ่มต้นเรียนรู้
+        url: /about/
+        icon: leaf
       secondary_action:
-        text: Read the docs
-        url: /docs/
+        text: ติดต่อโครงการ
+        url: /contact/
       announcement:
-        text: "Announcing the release of version 2."
+        text: "แนะนำโครงการหมูหลุมเพื่อความยั่งยืน"
         link:
-          text: "Read more"
+          text: "อ่านเพิ่มเติม"
           url: "/blog/"
     design:
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: ["4rem", "0", "4rem", "0"]
         margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
-      css_class: ""
+      css_class: "bg-white"
       background:
-        color: ""
+        color: "white"
         image:
-          # Add your image background to `assets/media/`.
-          filename: ""
+          filename: "pigfarm.jpg"  # Save your image in `assets/media/`
           filters:
-            brightness: 0.5
+            brightness: 0.85
+
   - block: stats
     content:
       items:
-        - statistic: "1M+"
+        - statistic: "1,500+"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            เกษตรกรที่เข้าร่วม  
+            โครงการหมูหลุม
+        - statistic: "30+"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
+            จังหวัดที่มีการขยาย  
+            โครงการหมูหลุม
+        - statistic: "100%"
           description: |
-            Discord community  
-            for support
+            ลดการใช้สารเคมี  
+            และเพิ่มสุขภาพสัตว์
     design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-800"
-      # Reduce spacing
+      css_class: "bg-[#f8fdf8]"
       spacing:
-        padding: ["1rem", 0, "1rem", 0]
+        padding: ["2rem", "0", "2rem", "0"]
+
   - block: features
     id: features
     content:
-      title: Features
-      text: Collaborate, publish, and maintain technical knowledge with an all-in-one documentation site. Used by 100,000+ startups, enterprises, and researchers.
+      title: จุดเด่นของโครงการ
+      text: การเลี้ยงหมูหลุมคือแนวทางใหม่ที่ช่วยลดต้นทุน เพิ่มสุขภาพสัตว์ และส่งเสริมระบบนิเวศในฟาร์มให้ยั่งยืน
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+        - name: ลดกลิ่นและแมลง
+          icon: sun
+          description: ระบบฟาร์มหมูหลุมช่วยลดกลิ่นและแมลงรบกวนโดยไม่ต้องใช้สารเคมี
+        - name: เพิ่มคุณภาพชีวิตสัตว์
+          icon: heart
+          description: หมูมีสุขภาพดีขึ้นและเคลื่อนไหวอย่างอิสระในหลุมที่มีวัสดุรองพื้นธรรมชาติ
+        - name: ผลผลิตปลอดภัย
+          icon: shield-check
+          description: ผลิตภัณฑ์จากฟาร์มหมูหลุมปลอดภัยสำหรับผู้บริโภค
+        - name: ลดต้นทุนการผลิต
+          icon: chart-bar
+          description: ลดต้นทุนอาหารและการดูแลสุขภาพสัตว์ด้วยแนวทางธรรมชาติ
+        - name: ฟาร์มเชิงนิเวศ
+          icon: globe
+          description: ส่งเสริมการใช้วัสดุเหลือใช้และหมุนเวียนทรัพยากรในฟาร์ม
+        - name: การเรียนรู้ร่วมกัน
+          icon: academic-cap
+          description: ส่งเสริมเครือข่ายเกษตรกร แลกเปลี่ยนความรู้ และสร้างชุมชนเข้มแข็ง
+
   - block: cta-card
     content:
-      title: "Start Writing with the #1 Effortless Documentation Platform"
-      text: Hugo Blox Docs Theme brings all your technical knowledge together in a single, centralized knowledge base. Easily search and edit it with the tools you use every day!
+      title: "เข้าร่วมเครือข่ายเกษตรกรหมูหลุมวันนี้"
+      text: ไม่ว่าคุณจะเป็นเกษตรกรมือใหม่หรือผู้เชี่ยวชาญ โครงการหมูหลุมเปิดโอกาสให้ทุกคนเรียนรู้และเติบโตไปด้วยกัน
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
+        text: สมัครเข้าร่วมโครงการ
+        url: /join/
     design:
       card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+        css_class: "bg-[#245e3c] text-white"
+        css_style: "border-radius: 0.75rem; box-shadow: 0px 5px 15px rgba(0,0,0,0.1);"
 ---
